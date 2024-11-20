@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="desktop-nav">
+        <div class="logo">Shabaab Hanaan</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Shabaab Hanaan</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="1.png" alt="Shabaab Hanaan's profile picture" title="Shabaab Hanaan" />
+        </div>
+        <div class="section__text">
+            <p>Hello, I'm</p>
+            <h1>Shabaab Hanaan</h1>
+            <p>Web Developer</p>
+            <div class="btn-container">
+                <a href="resume.pdf" target="_blank">
+                    <button>See Resume</button>
+                </a>
+                <button>Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="linkedin.png" alt="LinkedIn Profile" width="100px" height="100px" />
+                </a>
+                <a href="https://github.com/" target="_blank">
+                    <img src="github.png" alt="GitHub Profile" width="100px" height="100px" />
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+            <section id="about">
+                <h1><b>About Me</b></h1>
+                <div class="about-content">
+                  <h2>Who I Am</h2>
+                  <p>
+                    I’m Shabaab Hanaan, a <strong>2nd-year Software Engineering student</strong> at the 
+                    <strong>Sri Lanka Institute of Information Technology (SLIIT)</strong>. With over 
+                    <strong>2 years of experience in Frontend and Backend Development</strong>, I’m passionate about 
+                    creating innovative and efficient web applications that prioritize user experience.
+                  </p>
+              
+                  <h2>Educational Background</h2>
+                  <ul>
+                    <li><strong>Program:</strong> Bachelor of Science in Software Engineering</li>
+                    <li><strong>Institute:</strong> Sri Lanka Institute of Information Technology (SLIIT)</li>
+                    <li><strong>Focus Areas:</strong> Web development technologies such as 
+                      <strong>JavaScript</strong>, <strong>React</strong>, and <strong>Redux</strong>, and core software 
+                      engineering principles.
+                    </li>
+                  </ul>
+              
+                  <h2>What Drives Me</h2>
+                  <p>
+                    I am driven by the challenge of solving complex problems through innovative solutions. My focus includes:
+                  </p>
+                  <ul>
+                    <li>Developing high-performing, <strong>responsive web applications</strong>.</li>
+                    <li>Ensuring seamless <strong>UI/UX</strong> designs that enhance user interaction.</li>
+                  </ul>
+              
+                  <h2>Specialties</h2>
+                  <ul>
+                    <li>Proficient in <strong>JavaScript frameworks</strong> like React and Redux.</li>
+                    <li>Skilled in both <strong>Frontend and Backend Development</strong>.</li>
+                    <li>Dedicated to writing clean, maintainable, and scalable code.</li>
+                  </ul>
+              
+                  <h2>My Vision</h2>
+                  <p>
+                    To continue developing my skills as a software engineer by engaging in impactful projects, leveraging 
+                    the knowledge I gain at SLIIT, and contributing to innovative technological solutions.
+                  </p>
+                </div>
+              </section>
+              
+    <!-- Experience Section -->
+    <section id="experience">
+        <h1>Experience</h1>
+        <div class="experience-content">
+          <h2>Frontend Development</h2>
+          <p>
+            With over 2 years of hands-on experience, I specialize in building visually appealing, 
+            high-performing, and responsive web applications. My work emphasizes intuitive designs 
+            that prioritize user engagement and accessibility.
+          </p>
+          <ul>
+            <li>Proficient in HTML, CSS, and JavaScript to create seamless user interfaces.</li>
+            <li>Experience with modern frameworks like <strong>React</strong> and <strong>Redux</strong>.</li>
+            <li>Focus on responsive design principles for an optimal user experience on all devices.</li>
+            <li>Skilled in integrating APIs and handling dynamic data for interactive applications.</li>
+            <li>Ensuring cross-browser compatibility and maintaining clean, modular code.</li>
+          </ul>
+        </div>
+      </section>
+      <section id="contact">
+        <h1>Contact Us</h1>
+        <div class="contact-content">
+          <p>If you have any questions or want to collaborate, feel free to get in touch with me!</p>
+      
+          <form action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+      
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+      
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+            </div>
+      
+            <div class="form-group">
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
+      
+          <div class="contact-info">
+            <p><strong>Phone:</strong> +94-XXXXXXXXX</p>
+            <p><strong>Email:</strong> example@email.com</p>
+            <p><strong>Address:</strong> Colombo, Sri Lanka</p>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <h1>My Projects</h1>
+        <div class="projects-content">
+          <p>Here are a few projects I’ve worked on recently. Click on the titles to explore more details!</p>
+          
+          <div class="project">
+            <h2><a href="#">Project Title 1</a></h2>
+            <p>A short description of the project. It could involve web development, mobile apps, or any software solution.</p>
+            <span>Technologies used: JavaScript, React, Node.js</span>
+          </div>
+      
+          <div class="project">
+            <h2><a href="#">Project Title 2</a></h2>
+            <p>A short description of the project. It could involve design, user experience, or other aspects of software development.</p>
+            <span>Technologies used: HTML, CSS, Vue.js</span>
+          </div>
+      
+          <div class="project">
+            <h2><a href="#">Project Title 3</a></h2>
+            <p>A short description of the project. Highlight what you learned or the problem you solved.</p>
+            <span>Technologies used: Python, Flask, SQL</span>
+          </div>
+      
+        </div>
+      </section>
+      
+</body>
+
+</html>
